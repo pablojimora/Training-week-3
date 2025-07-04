@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Presiona para ver tus productos</h1>
+        <button id="get" onclick="get()">Mostrar productos</button>
+        <div id="verProductos">
+
+        </div>
+        <h1>Gestiona el inventario de tus productos</h1>
+        <input type="text" id="id" placeholder="ID del producto">
+        <input type="text" id="name" placeholder="Nombre del producto">
+        <input type="text" id="price" placeholder="Precio del producto">
+        <button id="post" onclick="post()">Agregar Producto</button>
+        <button id="put" onclick="put()">Actualizar Producto</button>
+        <button id="delete" onclick="eliminate()">Eliminar Producto</button>
+        <div id="info">
+
+        </div>
+    </div>
+    
+</body>
+<script src="./gestion_api.js"></script>
+</html>

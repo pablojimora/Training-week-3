@@ -1,0 +1,19 @@
+{
+  "productos": [
+    {
+      "nombre": "PAn",
+      "precio": "100",
+      "id": "8042"
+    },
+    {
+      "id": "66f0",
+      "nombre": "Carne",
+      "precio": "4000"
+    },
+    {
+      "id": "ca2d",
+      "nombre": "LEche",
+      "precio": "74"
+    }
+  ]
+}
